@@ -7,6 +7,8 @@ description: 给已有 WorkBuddy 等本地 AI agent 的小白配置 AI 工作环
 
 让已有本地 agent 的用户，完成所选软件的安装、登录、办公平台接入，以及 Obsidian 知识库的本地版本管理。已有 WorkBuddy、CodeBuddy 或其他能运行此 skill 的 agent 是前提，沿用它，不另建起步 AI 方案。
 
+若用户提供的是本地解压目录，直接读取此文件和同目录的按需资料，不以 GitHub 可达、`git clone` 或在线安装本 skill 为前置条件。首次使用不要求已有 Git；Git 由下面的环境配置步骤安装。能读取本地 skill 与能下载软件是不同条件，下载受阻按 [官方渠道与代下载](references/downloads.md#github-不可达时) 处理。
+
 ## 选择路线
 
 | 情况 | 本档安装的软件 | 所有档位都安装或配置 |
